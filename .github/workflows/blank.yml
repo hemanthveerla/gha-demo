@@ -9,11 +9,11 @@ jobs:
 test:
 runs-on: ubuntu-latest
 steps:
-   -name: Test Phase
+   - name: Test Phase
     run: echo "Running test cases"
 
     delpoy:
        runs-on: ubuntu-latest
        steps: 
-          -name: deploy the app
+          - name: deploy the app
            run: echo "Deploying the app"
